@@ -23,7 +23,12 @@
     },
     {
       "name": "chat-inventory",
-      "source": "./chat-inventory"
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/SLANTDholdings/software.git",
+        "path": "terminal-mods/chat-inventory",
+        "ref": "main"
+      }
     },
     {
       "name": "effort-optimizer",
@@ -39,7 +44,12 @@
     },
     {
       "name": "helper-desk",
-      "source": "./helper-desk"
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/SLANTDholdings/software.git",
+        "path": "terminal-mods/helper-desk",
+        "ref": "main"
+      }
     },
     {
       "name": "helpin-per",
